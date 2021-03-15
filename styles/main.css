@@ -1,0 +1,186 @@
+h3 {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 22px; }
+
+p {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 22px; }
+
+@font-face {
+  font-family: "SFPro";
+  src: url("../fonts/SFProDisplay-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.link {
+  font-family: "SFPro", sans-serif;
+  font-size: 15px; }
+
+html {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2a2f3b; }
+
+.container {
+  width: 700px;
+  margin: 0 auto; }
+
+.header {
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header__link {
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #929292; }
+
+.main__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url(../images/background.png) no-repeat center;
+  background-position: top;
+  margin-bottom: 27px; }
+
+.main__text {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+  .main__text--heading {
+    margin-bottom: 30px; }
+  .main__text--article {
+    margin-bottom: 37px; }
+  .main__text .summ {
+    font-size: 20px;
+    margin-bottom: 17px; }
+    .main__text .summ__title {
+      color: #979797;
+      margin-right: 66px; }
+  .main__text .description {
+    font-size: 20px;
+    margin-bottom: 40px; }
+    .main__text .description__title {
+      color: #979797;
+      margin-right: 17px; }
+
+.main__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px; }
+  .main__btn--link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 238px;
+    height: 53px;
+    background: #9c27b0;
+    border-radius: 30px;
+    color: #fff;
+    border: 1px solid #9c27b0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .main__btn--link:hover {
+      color: #9c27b0;
+      background: transparent; }
+
+.main__block {
+  width: 600px;
+  padding-top: 42px;
+  margin: 0 auto;
+  background: #f3f5fe;
+  border-radius: 20px;
+  text-align: center; }
+  .main__block--heading {
+    margin-bottom: 20px; }
+  .main__block--text {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 534px;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .main__block--links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 20px; }
+  .main__block--link {
+    width: 180px;
+    height: 55px;
+    border: 1px solid #9c27b0;
+    color: #9c27b0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .main__block--link:nth-child(3n) {
+      margin-right: 0; }
+    .main__block--link:hover {
+      background: #9c27b0;
+      color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

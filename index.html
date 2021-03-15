@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Right</title>
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <header class="header container">
+      <a href="#">
+        <img src="./images/logo.png" alt="logo">
+      </a>
+      <a href="#" class="header__link">Веб-версія</a>
+    </header>
+    <main class="main container">
+      <div class="main__header">
+        <img src="./images/fox.png" alt="fox">
+      </div>
+      <div class="main__text">
+        <h3 class="main__text--heading">Ваш платеж прошел успешно!</h3>
+        <p class="main__text--article">Это значит, что вы стали на шаг ближе к идеальному английскому!</p>
+        <div class="summ">
+          <span class="summ__title">Сумма:</span>
+          <span class="summ__result">{{ params.SUMM }}</span>
+        </div>
+        <div class="description">
+          <span class="description__title">Назначение:</span>
+          <span class="description__result">{{ params.DESCRIPTION }}</span>
+        </div>
+      </div>
+      <div class="main__btn">
+        <a href="#" class="main__btn--link link">Забронировать урок</a>
+      </div>
+      <div class="main__block">
+        <h3 class="main__block--heading">Бесплатный урок за честный отзыв</h3>
+        <p class="main__block--text">Хотите получить бесплатное занятие для своего ребенка?<br>
+          Нет ничего проще! Поделитесь мнением об изучении английского<br>
+          в нашей школе, отправьте скрин с отзывом нашему администратору<br>
+          и получите бонус в виде бесплатного урока – он будет ждать вас<br>
+          в личном кабинете.Выберете один из сервисов,<br>
+          на котором хотите оставить отзыв
+        </p>
+        <div class="main__block--links">
+          <a href="#" class="main__block--link link">Facebook</a>
+          <a href="#" class="main__block--link link">Truspilot.com</a>
+          <a href="#" class="main__block--link link">Otzovik.com</a>
+          <a href="#" class="main__block--link link">Zoon.ru</a>
+          <a href="#" class="main__block--link link">Yell.ru</a>
+          <a href="#" class="main__block--link link">Подробнее о скидках</a>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+</html>
