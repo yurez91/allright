@@ -1,7 +1,154 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "reset";
+@import "link";
 
-body {
-  background: $c-gray;
+html {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2a2f3b;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__link {
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #929292;
+  }
+}
+
+.main {
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    background: url(../images/background.png) no-repeat center;
+    background-position: top;
+    margin-bottom: 27px;
+  }
+
+  &__text {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    &--heading {
+      margin-bottom: 30px;
+    }
+
+    &--article {
+      margin-bottom: 37px;
+    }
+
+    .summ {
+      font-size: 20px;
+      margin-bottom: 17px;
+
+      &__title {
+        color: #979797;
+        margin-right: 66px;
+      }
+    }
+
+    .description {
+      font-size: 20px;
+      margin-bottom: 40px;
+
+      &__title {
+        color: #979797;
+        margin-right: 17px;
+      }
+    }
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+    &--link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 238px;
+      height: 53px;
+      background: $c-purple;
+      border-radius: 30px;
+      color: #fff;
+      border: 1px solid $c-purple;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $c-purple;
+        background: transparent;
+      }
+    }
+  }
+
+  &__block {
+    width: 600px;
+    padding-top: 42px;
+    margin: 0 auto;
+    background: #f3f5fe;
+    border-radius: 20px;
+    text-align: center;
+
+    &--heading {
+      margin-bottom: 20px;
+    }
+
+    &--text {
+      font-size: 16px;
+      line-height: 24px;
+      max-width: 534px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+
+    &--links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 20px;
+    }
+
+    &--link {
+      width: 180px;
+      height: 55px;
+      border: 1px solid $c-purple;
+      color: $c-purple;
+      box-sizing: border-box;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      transition: all 0.3s;
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background: $c-purple;
+        color: #fff;
+      }
+    }
+  }
 }
